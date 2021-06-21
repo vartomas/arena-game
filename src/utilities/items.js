@@ -1,0 +1,81 @@
+import { uploads } from './variables'
+
+const items = [
+  {
+    type: 'armor',
+    name: 'Cloth armor',
+    defence: 3,
+    price: 50,
+    sellPrice: 10,
+    image: uploads + 'cloth-armor.png',
+  },
+  {
+    type: 'armor',
+    name: 'Mail armor',
+    defence: 7,
+    price: 250,
+    sellPrice: 100,
+    image: uploads + 'mail-armor.png',
+  },
+  {
+    type: 'armor',
+    name: 'Plate armor',
+    defence: 8,
+    price: 800,
+    sellPrice: 300,
+    image: uploads + 'plate-armor.png',
+  },
+  {
+    type: 'weapon',
+    name: 'Sword',
+    damage: 8,
+    price: 40,
+    sellPrice: 5,
+    image: uploads + 'sword.png',
+    specialDescription: '20% chance to block enemy attack',
+  },
+  {
+    type: 'weapon',
+    name: 'Bow',
+    damage: 6,
+    price: 300,
+    sellPrice: 80,
+    image: uploads + 'bow.png',
+    specialDescription: '30% chance to do double damage',
+  },
+  {
+    type: 'weapon',
+    name: 'Magic wand',
+    damage: 5,
+    price: 1000,
+    sellPrice: 400,
+    image: uploads + 'magic-wand.png',
+    specialDescription: '40% chance to heal on enemy attack by 10',
+  },
+  {
+    type: 'potion',
+    name: 'Lesser healing potion',
+    heals: 20,
+    price: 10,
+    sellPrice: 5,
+    image: uploads + 'lesser-healing.png',
+  },
+  {
+    type: 'potion',
+    name: 'Normal healing potion',
+    heals: 35,
+    price: 30,
+    sellPrice: 10,
+    image: uploads + 'normal-healing.png',
+  },
+  {
+    type: 'potion',
+    name: 'Greater healing potion',
+    heals: 50,
+    price: 60,
+    sellPrice: 20,
+    image: uploads + 'greater-healing.png',
+  },
+]
+
+export default items

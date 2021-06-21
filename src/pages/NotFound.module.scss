@@ -1,0 +1,17 @@
+@import '../variables.scss';
+
+.root {
+  background-color: $secondary-color;
+
+  padding: 24px;
+  text-align: center;
+}
+
+.spacer {
+  height: 12px;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+}

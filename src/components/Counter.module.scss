@@ -1,0 +1,53 @@
+@import '../variables.scss';
+
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  background-color: $primary-color;
+  color: $light-color;
+  font-size: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  // no select button text
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.btnleft {
+  border-radius: 6px 0 0 6px;
+}
+
+.btnright {
+  border-radius: 0 6px 6px 0;
+}
+
+.count {
+  width: 30px;
+  height: 30px;
+  font-size: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid $primary-color;
+  border-bottom: 1px solid $primary-color;
+
+  // no select button text
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}

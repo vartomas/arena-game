@@ -1,0 +1,11 @@
+.main {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-image: url('http://localhost:5000/uploads/background.jpg');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

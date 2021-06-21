@@ -1,0 +1,43 @@
+@import '../variables.scss';
+
+.root {
+  width: 150px;
+  height: 150px;
+  position: relative;
+
+  background-color: $secondary-color;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 5px solid $primary-color;
+}
+
+.root:hover .tooltip {
+  display: block;
+}
+
+.img {
+  height: 60%;
+}
+
+.tooltip {
+  background-color: $light-color;
+  padding: 12px;
+  border: 3px solid $primary-color;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 75px;
+  left: 75px;
+  display: none;
+  font-size: 20px;
+  z-index: 20;
+  white-space: nowrap;
+}
+
+.count {
+  position: absolute;
+  right: 6px;
+  bottom: 3px;
+}
